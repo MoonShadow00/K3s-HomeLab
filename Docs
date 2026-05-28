@@ -1,0 +1,66 @@
+
+# docs/README.md
+
+```markdown
+# Documentation
+
+## Overview
+
+This repository contains documentation for the Kubernetes HomeLab environment.
+
+The purpose of this repository is to centralize:
+
+- Architecture documentation
+- Deployment guides
+- Troubleshooting procedures
+- Networking diagrams
+- Operational notes
+- Security documentation
+- Learning notes
+
+---
+
+# Repository Structure
+
+```text
+
+.
+├── architecture/
+├── deployment-guides/
+├── troubleshooting/
+├── networking/
+├── security/
+├── diagrams/
+├── notes/
+└── README.md
+________________________________________
+Documentation Goals
+•	Improve operational consistency
+•	Maintain deployment procedures
+•	Document troubleshooting workflows
+•	Create reusable operational knowledge
+•	Build professional portfolio documentation
+________________________________________
+Topics Covered
+•	Kubernetes cluster deployment
+•	VLAN networking
+•	MetalLB configuration
+•	Flannel networking
+•	Monitoring stack deployment
+•	Security tooling
+•	Infrastructure automation
+________________________________________
+Example Commands
+Export Cluster Information
+
+kubectl cluster-info
+View Node Status
+
+kubectl get nodes -o wide
+________________________________________
+Learning Areas
+•	Technical documentation
+•	Infrastructure design
+•	Operational procedures
+•	Troubleshooting methodologies
+•	Knowledge management ```
