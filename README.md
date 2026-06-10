@@ -1,3 +1,10 @@
+# Kubernetes HomeLab v1
+> This project has been archived and is no longer under active development.
+>
+> Development has moved to Kubernetes HomeLab v2.
+>
+> While the cluster was functional, several architectural and networking decisions made during the build process created unnecessary complexity. Rather than continue iterating on the existing design, the environment was retired early to allow for a cleaner implementation based on lessons learned.
+
 # Kubernetes HomeLab
 
 ## Overview
