@@ -1,0 +1,85 @@
+# security/README.md
+
+```markdown
+# Security Engineering
+
+## Overview
+
+This repository contains security engineering projects, tooling, hardening configurations, and experiments for the Kubernetes HomeLab.
+
+The goal is to build practical security engineering experience using real infrastructure.
+
+---
+
+# Security Focus Areas
+
+- Kubernetes security
+- Network segmentation
+- Identity and access management
+- Threat detection
+- Log analysis
+- Security monitoring
+- Vulnerability management
+- Zero Trust concepts
+
+---
+
+# Planned Projects
+
+- Wazuh deployment
+- Falco runtime security
+- Kubernetes hardening
+- SIEM integration
+- VPN security testing
+- Network policy enforcement
+- Honeypot deployment
+- Security dashboards
+
+---
+
+# Repository Structure
+
+```text
+.
+├── hardening/
+├── detection/
+├── wazuh/
+├── falco/
+├── policies/
+├── scripts/
+├── dashboards/
+└── README.md
+# Example Security Commands
+
+## View Falco Logs
+
+```bash
+kubectl logs -n falco -l app=falco
+```
+
+## Scan Cluster
+
+```bash
+kubectl get pods -A
+```
+
+---
+
+# Security Goals
+
+* Build production-aligned security skills
+* Learn cloud-native security concepts
+* Practice detection engineering
+* Improve infrastructure hardening knowledge
+
+---
+
+# Learning Areas
+
+* Security engineering
+* Kubernetes security
+* Detection engineering
+* Incident response
+* Infrastructure hardening
+
+````
