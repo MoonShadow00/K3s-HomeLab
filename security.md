@@ -1,5 +1,3 @@
-# security/README.md
-
 # Security Engineering
 
 ## Overview
